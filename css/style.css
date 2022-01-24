@@ -20,6 +20,11 @@ ul{
     list-style: none;
 }
 
+i{
+    margin-right: 8px;
+}
+
+
 .container{
     width: 80%;
    /*  max-width: 1180px; */
@@ -191,11 +196,27 @@ footer{
     color: #7289da;
 }
 
-h5{
+.large-column-footer > h4{
+    margin-bottom: 15px;
+}
+
+.small-clm-footer > h5{
     margin-bottom: 10px;
 }
 
 .footer-list > li{
     margin-bottom:10px;
     font-size: 0.8rem;
+}
+
+.container-flag{
+    margin-bottom: 15px;
+}
+
+.italy-flag{
+    width: 30px;
+}
+
+span > i{
+    color: white;
 }
