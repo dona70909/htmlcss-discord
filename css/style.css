@@ -59,11 +59,15 @@ header .container-main-nav li{
     margin-top: 20px;
 }
 
-.access-button{
-    vertical-align: middle;
+.button{
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
-} 
+    border: none;
+}
+
+.access-button{
+    vertical-align: middle;
+}
 
 .color-white{
     color: white;
@@ -85,4 +89,14 @@ header .container-main-nav li{
     margin-bottom: 20px;
     line-height: 25px;
    
+}
+
+.button-white{
+    background-color: rgb(151, 149, 149);
+    width:150px;
+  
+}
+
+.button-black{
+    background-color: black;
 }
