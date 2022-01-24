@@ -36,6 +36,7 @@ form{
     margin-bottom: 20px;
 }
 
+/* form selct option */
 select{
     background-color: transparent;
     border: transparent;
@@ -45,6 +46,8 @@ select{
 option{
     color: black;
 }
+
+/* ************************* */
 
 .container{
     width: 80%;
