@@ -32,6 +32,19 @@ hr{
     border-color:#7289da ;
 }
 
+form{
+    margin-bottom: 20px;
+}
+
+select{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+option{
+    color: black;
+}
 
 .container{
     width: 80%;
