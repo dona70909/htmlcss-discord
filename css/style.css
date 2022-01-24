@@ -6,17 +6,21 @@
 
 header{
     width: 100%;
-    height: 80px;
-    line-height: 80px;
+   
     background-color: rgb(49, 97, 224);
     text-align: center;
 }
 
 .container{
     width: 90%;
-    max-width: 1180px;
+   /*  max-width: 1180px; */
     margin: 0 auto;
     background-color: brown;
+}
+
+.container-menu{
+    height: 80px;
+    line-height: 80px;
 }
 
 .clearfix::after{
@@ -60,3 +64,25 @@ header .container-main-nav li{
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
 } 
+
+.color-white{
+    color: white;
+}
+
+.title-jumbtron{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container-paragraph{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paragrafo-jumbtron{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 25px;
+   
+}
