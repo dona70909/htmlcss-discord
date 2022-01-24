@@ -24,6 +24,10 @@ i{
     margin-right: 8px;
 }
 
+hr{
+    border-color:#7289da ;
+}
+
 
 .container{
     width: 80%;
@@ -182,13 +186,15 @@ footer{
 
 .large-column-footer{
     width: 30%;
+    margin-bottom: 20px;
 }
 
 .small-clm-footer{
     width: calc(70% / 4);
+    margin-bottom: 20px;
 }
 
-.container-footer{
+.container-footer-list{
     padding-top: 50px;
 }
 
