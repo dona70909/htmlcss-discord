@@ -145,10 +145,19 @@ main{
 
 .last-section{
     padding-top: 150px ;
+    padding-bottom: 30px;
 }
 
 .container-paragraph-four{
     width:800px;
     margin:0 auto;
+}
+
+.section-four-subtitle{
+    margin-bottom: 20px;
+}
+
+.background-violet{
+    background-color: #8ea1e1;
 }
 
