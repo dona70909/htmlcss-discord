@@ -111,7 +111,7 @@ main{
 }
 
 .main-section{
-    height: 500px;
+   /*  height: 500px; */
     text-align: center;
     margin: 0 auto;
 }
@@ -130,7 +130,7 @@ main{
 }
 
 
-.study-group-chat{
+.size-img-small{
     width: 600px;
 }
 
@@ -141,5 +141,14 @@ main{
 
 .back-grey{
     background-color:rgba(246,246,246,255) ;
+}
+
+.last-section{
+    padding-top: 150px ;
+}
+
+.container-paragraph-four{
+    width:800px;
+    margin:0 auto;
 }
 
