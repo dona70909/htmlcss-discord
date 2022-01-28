@@ -248,11 +248,14 @@ header{
     padding-bottom: 30px;
 }
 
+.last-section a{
+    color: white;
+}
+
 .container-paragraph-four{
     width:800px;
     margin:0 auto;
 }
-
 
 .section-four-subtitle{
     margin-bottom: 20px;
@@ -260,6 +263,7 @@ header{
 
 .background-violet{
     background-color: #8ea1e1;
+    transform: scale(1);
 }
 
 
