@@ -211,25 +211,36 @@ header{
     margin:60px 0px 0 0px ;
 }
 
-
 .size-img-small{
     width: 600px;
 }
+
+.paragraph-section{
+    font-weight: 600;
+    text-align: left;
+}
+
+.paragraph-section-middle{
+    font-weight: 600;
+}
+
 
 .title-section{
     font-size: 35px;
     margin-bottom: 20px;
     text-align: left;
+    font-weight: 900;
 }
 
-/* ***?last section with bigger title and image */
+/* ************************!last section with bigger title and image */
 .title-middle{
     font-size: 40px;
     margin-bottom: 20px; 
+    font-weight: 900;
 }
 
 .back-grey{
-    background-color:rgba(246,246,246,255) ;
+    background-color:rgba(246,246,246,255);
 }
 
 .last-section{
@@ -250,6 +261,8 @@ header{
 .background-violet{
     background-color: #8ea1e1;
 }
+
+
 
 /* **********************************!!! Footer *********************************/
 
