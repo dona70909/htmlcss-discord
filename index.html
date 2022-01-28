@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- font whitney -->
     <link rel="stylesheet" href="http://fonts-cdnfonts.com/css/whitney-2">
-   
+
+</head>
 <body>
     <header>
-        <section class="container container-menu clearfix">
+        <section class="container-menu clearfix">
             <div class="container-logo float-left ">
                 <img class="logo " src="img\logo.svg" alt="logo discord">
             </div>
-           
-            <div class="container-main-nav float-left ">
+            <div class="container-main-nav float-left">
                 <ul class="header-list color-white">
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
@@ -27,23 +27,21 @@
                     <li>Assistenza</li>
                 </ul>
             </div>
-
-            <div class="container-button float-left">
-                <button class="button access-button float-left">Accedi</button>
+            <div class="access-link-header float-left">
+                <button><a href="#">Accedi</a></button>
             </div>
-
         </section>
 
-        <section class="container container-header-jumbtron">
-            <h1 class="title-jumbtron color-white">Il tuo posto per parlare</h1>
+        <section class="container-header-jumbtron">
+            <h1 class="title-jumbotron color-white">Il tuo posto per parlare</h1>
             <div class="container-paragraph">
-                <p class="paragrafo-jumbtron color-white">
+                <p class="paragrafo-jumbotron color-white">
                     Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno per ritrovarsi più spesso.
                 </p>
             </div>
             
-            <button class="button button-white"><i class="fas fa-arrow-down"></i>Scarica per Mac</button>
-            <button class="button button-black color-white">Apri Discord nel tuo browser</button>
+            <button class="button button-white"><i class="fas fa-arrow-down"></i><a href="#">Scarica per Mac</a></button>
+            <button class="button button-black color-white"><a href="#">Apri Discord nel tuo browser</a></button>
         </section>
 
     </header>
@@ -67,19 +65,22 @@
 
         <!-- SEZIONE 2 -->
         
-        <section class="container  clearfix  back-grey">
-            <div class="column-small float-left">
-                <h1 class="title-section">
-                    Dove trovarsi è facile
-                </h1>
-                <p class="paragraph-section">
-                   Mettiti comodo in un canale vocale
-                   quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare
-                </p>
+        <section class="back-grey">
+            <div class="container clearfix">
+                <div class="column-small float-left">
+                    <h1 class="title-section">
+                        Dove trovarsi è facile
+                    </h1>
+                    <p class="paragraph-section">
+                        Mettiti comodo in un canale vocale
+                        quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare
+                    </p>
+                </div>
+                <div class="column-big float-left">
+                    <img class="size-img-small" src="img/item2.svg" alt="voice connected ">
+                </div>
             </div>
-            <div class="column-big float-left">
-                <img class="size-img-small" src="img/item2.svg" alt="voice connected ">
-            </div>
+        
         </section>
 
         <!-- sezione 3 -->
@@ -92,25 +93,27 @@
                     Da pochi a un fandom
                 </h1>
                 <p class="paragraph-section">
-                   Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile.
-                   Concedi ai membri poter speciali, crea canali privati, e molto altro. 
+                    Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile.
+                    Concedi ai membri poter speciali, crea canali privati, e molto altro. 
                 </p>
             </div>
         </section>
 
         <!-- SECTION 4 -->
         <section class="main-section last-section back-grey">
-            <h1 class="title-middle">Tecnologia affidabile per tenersi in contatto</h1>
-            <div class="container-paragraph-four">
-                <p class="paragraph-section paragraph-section-four">
-                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
-                </p>
-            </div>
-            <img class="big-image" src="img/item4-big.svg" alt="just chilling">
-            <div>
-                <img src="img/stars.svg" alt="stars">
-                <h3 class="section-four-subtitle">Pronto ad iniziare la tua nuova avventura</h3>
-                <button class="button background-violet color-white"><i class="fas fa-arrow-down"></i>Scarica per Mac</button>
+            <div class="container">
+                <h1 class="title-middle">Tecnologia affidabile per tenersi in contatto</h1>
+                <div class="container-paragraph-four">
+                    <p class="paragraph-section paragraph-section-four">
+                        Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                    </p>
+                </div>
+                <img class="big-image" src="img/item4-big.svg" alt="just chilling">
+                <div>
+                    <img src="img/stars.svg" alt="stars">
+                    <h3 class="section-four-subtitle">Pronto ad iniziare la tua nuova avventura</h3>
+                    <button class="button background-violet color-white"><i class="fas fa-arrow-down"></i>Scarica per Mac</button>
+                </div>
             </div>
         </section>
 
@@ -143,47 +146,46 @@
             <div  class="float-left small-clm-footer">
                 <h5 class=color-purple>Prodotto</h5>
                 <ul class="color-white footer-list">
-                    <li>Scarica</li>
-                    <li>Nitro</li>
-                    <li>Stato</li>
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Stato</a></li>
                 </ul>
             </div>
 
             <div  class="float-left small-clm-footer">
                 <h5 class=color-purple>Compagni </h5>
                 <ul class="color-white footer-list">
-                    <li>Chi siamo</li>
-                    <li>Lavora con noi</li>
-                    <li>Marchio</li>
-                    <li>Redazione</li>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Lavora con noi</a></li>
+                    <li><a href="#">Marchio</a></li>
+                    <li><a href="#">Redazione</a></li>
                 </ul>
             </div>
 
             <div  class="float-left small-clm-footer">
                 <h5 class=color-purple>Risorse</h5>
                 <ul class="color-white footer-list">
-                    <li>Università</li>
-                    <li>Assistenza</li>
-                    <li>Sicurezza</li>
-                    <li>Blog</li>
-                    <li>Suggerimenti</li>
-                    <li>Sviluppatori</li>
-                    <li>StreamKit</li>
+                    <li><a href="#">Università</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Suggerimenti</a></li>
+                    <li><a href="#">Sviluppatori</a></li>
+                    <li><a href="#">StreamKit</a></li>
                 </ul>
             </div>
             <div  class="float-left small-clm-footer">
                 <h5 class=color-purple>Norme</h5>
                 <ul class="color-white footer-list">
-                    <li>Termin</li>
-                    <li>Privacy</li>
-                    <li>Impostazioni cookie</li>
-                    <li>Linee guida</li>
-                    <li>Riconoscimenti</li>
-                    <li>Licenze</li>
-                    <li>Moderazione</li>
+                    <li><a href="#">Termin</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Impostazioni cookie</a></li>
+                    <li><a href="#">Linee Guida</a></li>
+                    <li><a href="#">Riconoscimenti</a></li>
+                    <li><a href="#">Licenze</a></li>
+                    <li><a href="#">Moderazione</a></li>
                 </ul>
             </div>
-          
         </section>
         
         <hr class="container ">

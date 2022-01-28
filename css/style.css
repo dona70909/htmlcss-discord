@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;                                                           font-family: 'Whitney-Semibold', sans-serif;
+    padding: 0;                                                
     font-family: 'Whitney-Semibold', sans-serif;
 }
 
 html{
     min-width: 1250px;
 }
-
 
 /* ***********************************************!! header ************** */
 header{
@@ -19,6 +18,20 @@ header{
     background-size:contain ;
     background-repeat: no-repeat;
 }
+
+.access-link-header a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.access-link-header > button{
+    background-color: white;
+    border:none;
+    padding: 7px 14px;
+    border-radius:15px ;
+}
+
 
 ul{
     list-style: none;
@@ -47,6 +60,10 @@ option{
     color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* ************************* */
 
 /* container for all sections (modificare proprietà)  */
@@ -57,13 +74,13 @@ option{
  /*   background-color: tomato; */
 }
 
-/* allign to the center without the width 80% ?!?  */
 .main-section{
     text-align: center;
     margin: 0 auto;
 }
 /* ***************************** */
 .container-menu{
+    width: 100%;
     height: 80px;
     line-height: 80px;
     margin-bottom: 80px ;
@@ -104,8 +121,6 @@ header .container-main-nav li{
 /* ****************************************************! */
 .container-button{
     width: 200px;
-    height: 60px;
-    margin-top: 20px;
 }
 
 .button{
@@ -114,17 +129,12 @@ header .container-main-nav li{
     border: none;
 }
 
-.access-button{
-    vertical-align: middle;
-}
-
 .color-white{
     color: white;
 }  
 
 /* ************************************!JUMBTRON****************************/
-
-.title-jumbtron{
+.title-jumbotron{
     font-size: 50px;
     margin-bottom: 20px;
 }
@@ -135,7 +145,7 @@ header .container-main-nav li{
     text-align: center;
 }
 
-.paragrafo-jumbtron{
+.paragrafo-jumbotron{
     font-size: 1rem;
     margin-bottom: 20px;
     line-height: 25px;
@@ -153,6 +163,16 @@ header .container-main-nav li{
     background-color: black;
 }
 
+.button-white>a{
+    color:black;
+}
+
+.button-black a{
+    color: white;
+}
+.container-header-jumbotron a{
+    text-decoration: none;
+}
 /* ***************************************!!!!!MAIN**************************** */
 
 .column-big{
@@ -215,7 +235,10 @@ footer{
     width:100%;
     background-color: rgba(35,39,42,255);
     height: 500px;
-   
+}
+
+footer a{
+    color: white;
 }
 
 .large-column-footer{
