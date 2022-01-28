@@ -71,7 +71,9 @@ hr{
 .float-right{
     float: right;
 }
-
+main> section{
+    padding:40px 0 ;
+}
 /* ***********************************************!!HEADER  ************** */
 header{
     width: 100%;
@@ -276,6 +278,9 @@ footer a{
 .container-footer-list{
     padding-top: 50px;
 }
+.container-footer-logo{
+    margin-top: 20px;
+}
 
 .color-purple{
     color: #7289da;
@@ -310,18 +315,12 @@ span > i{
     color: white;
 }
 
-.container-footer-logo{
-    position: relative;
-}
-
 .logo-footer{
-    position: absolute;
     top: 30px;
     left: 0;
 }
 
 .button-footer{
-    position: absolute;
     top: 30px;
     right: 0;
 }
