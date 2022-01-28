@@ -9,47 +9,9 @@ html{
     min-width: 1250px;
 }
 
-/* ***********************************************!! header ************** */
-header{
-    width: 100%;
-    height: 470px;
-    background-image: url("../img/jumbo.png");
-    text-align: center;
-    background-size:contain ;
-    background-repeat: no-repeat;
-}
 
-.access-link-header a{
-    text-decoration: none;
-    font-size: 13px;
-    color: black;
-}
-
-.access-link-header > button{
-    background-color: white;
-    border:none;
-    padding: 7px 14px;
-    border-radius:15px ;
-}
-
-
-ul{
-    list-style: none;
-}
-
-i{
-    margin-right: 8px;
-}
-
-hr{
-    border-color:#7289da ;
-}
-
-form{
-    margin-bottom: 20px;
-}
-
-/* form selct option */
+/* todo COMMON PROPERTIES */
+/* ? select option for languages */
 select{
     background-color: transparent;
     border: transparent;
@@ -64,9 +26,8 @@ a{
     text-decoration: none;
 }
 
-/* ************************* */
 
-/* container for all sections (modificare proprietà)  */
+/* todo container for all sections (modificare proprietà) WIDTH 80 E FULL WIDTH  */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -75,18 +36,29 @@ a{
 }
 
 .main-section{
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
 /* ***************************** */
-.container-menu{
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    margin-bottom: 80px ;
+
+header a{
+    color:white;
 }
 
-/* **************?CLEARFIX + FLOAT**************** */
+ul{
+    list-style: none;
+}
+
+i{
+    margin-right: 8px;
+}
+
+hr{
+    border-color:#7289da ;
+}
+
+/* ************todo CLEARFIX + FLOAT**************** */
 .clearfix::after{
     content: "";
     display: table;
@@ -96,9 +68,39 @@ a{
 .float-left{
     float: left;
 }
-/* ********************************************************? */
 
-/* List menu */
+/* ***********************************************!!HEADER  ************** */
+header{
+    width: 100vw;
+    height: 600px;
+    background-image: url("../img/jumbo.png");
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.access-link-header a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.access-link-header > button{
+    background-color: white;
+    border:none;
+    padding: 7px 14px;
+    border-radius:15px ;
+}
+
+.container-menu{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 80px ;
+}
+
+/* *List menu */
 header .container-main-nav li{
     display: inline-block;
     margin-right: 20px;
@@ -109,7 +111,7 @@ header .container-main-nav li{
     margin: 0 20px 0 20px;
 }
 
-/* *******************!logo header**************************/
+/* ********************Logo header**************************/
 .container-logo{
     width: 25%;
     height:80px;
@@ -118,7 +120,7 @@ header .container-main-nav li{
 .logo{
     vertical-align: middle;
 }
-/* ****************************************************! */
+/* *****************************************************/
 .container-button{
     width: 200px;
 }
@@ -135,7 +137,8 @@ header .container-main-nav li{
 
 /* ************************************!JUMBTRON****************************/
 .title-jumbotron{
-    font-size: 50px;
+    font-size: 4.5rem;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
@@ -146,10 +149,10 @@ header .container-main-nav li{
 }
 
 .paragrafo-jumbotron{
-    font-size: 1rem;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
     line-height: 25px;
-   
+    font-weight: 600;
 }
 
 .button-white{
@@ -173,12 +176,20 @@ header .container-main-nav li{
 .container-header-jumbotron a{
     text-decoration: none;
 }
+
+.container-header-jumbotron > .button-black{
+    transform: scale(1.5);
+    margin-left: 100px;
+}
+
+.container-header-jumbotron > .button-white{
+    transform: scale(1.5);
+}
 /* ***************************************!!!!!MAIN**************************** */
 
 .column-big{
     width:calc(75% - 40px);
     margin:60px 0px 0 40px ;
-  
  /*    background-color: rgb(166, 71, 255); */
 }
 
@@ -199,7 +210,7 @@ header .container-main-nav li{
     text-align: left;
 }
 
-/* ***!last section with bigger title and image */
+/* ***?last section with bigger title and image */
 .title-middle{
     font-size: 40px;
     margin-bottom: 20px; 
@@ -223,7 +234,6 @@ header .container-main-nav li{
 .section-four-subtitle{
     margin-bottom: 20px;
 }
-/* *************************************************! */
 
 .background-violet{
     background-color: #8ea1e1;
@@ -272,6 +282,10 @@ footer a{
 .footer-list > li{
     margin-bottom:10px;
     font-size: 0.8rem;
+}
+
+.container-opt-languages{
+    margin-bottom: 20px;
 }
 
 .container-flag{
