@@ -31,13 +31,18 @@ a{
     width: 80%;
     margin: 0 auto;
     text-align: center;
- /*   background-color: tomato; */
 }
 
 .main-section{
     width: 100%;
     text-align: center;
     margin: 0 auto;
+}
+
+.container-menu{
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 80px;
 }
 /* ***************************** */
 
@@ -95,19 +100,14 @@ header{
     background-color: white;
     border:none;
     padding: 7px 14px;
-    border-radius:15px ;
+    border-radius:15px;
+    font-weight: 600;
 }
 
 .access-link-header{
-    padding-right: 50px;
+    width: 25%;
 }
 
-.container-menu{
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    margin-bottom: 80px ;
-}
 
 /* *List menu */
 .header-list > li {
@@ -116,16 +116,16 @@ header{
 } 
 
 .container-main-nav{
-    width: calc(50% - 40px);
+    width: calc(50% - 80px);
     display: inline-block;
     text-align: center;
-    margin:0 auto;
+    margin:0 40px;
 } 
    /*  margin: 0 20px 0 20px; */
 
 /* ********************Logo header**************************/
 .container-logo{
-    width:200px;;
+    width:25%;
     height:80px;
 }
 
@@ -245,7 +245,7 @@ header{
 
 .last-section{
     padding-top: 150px ;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .last-section a{
@@ -259,14 +259,18 @@ header{
 
 .section-four-subtitle{
     margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1.4rem;
 }
 
 .background-violet{
     background-color: #8ea1e1;
-    transform: scale(1);
 }
 
-
+.last-section button{
+    transform: scale(1.3);
+    font-weight: 700;
+}
 
 /* **********************************!!! Footer *********************************/
 
@@ -304,7 +308,9 @@ footer a{
 }
 
 .large-column-footer > h4{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 1.6rem;
 }
 
 .small-clm-footer > h5{
@@ -325,7 +331,7 @@ footer a{
 }
 
 .italy-flag{
-    width: 30px;
+    width: 18px;
 }
 
 span > i{
@@ -337,9 +343,10 @@ span > i{
     left: 0;
 }
 
-.button-footer{
-    top: 30px;
-    right: 0;
+.button-footer button{
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
 }
 
 #size-logo-footer{
